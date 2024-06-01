@@ -7,9 +7,9 @@ function Testimonies() {
       </div>
       <section className="members">
         <div className="joseph">
-          <h2>Joseph Mbugua</h2>
-          <p>
-            " Joining the Murang'a University Tech Club was one of the best
+          <h2>Joseph Mbugua</h2><br/>
+          
+           <p>  " Joining the Murang'a University Tech Club was one of the best
             decisions I've made in my university journey. The hands-on
             experience with the latest technologies and the collaborative
             environment have greatly enhanced my skills and confidence. The
@@ -19,7 +19,7 @@ function Testimonies() {
         </div>
         {/* ***************************************************************************************************8 */}
         <div className="joseph">
-          <h2>Phyllis Wambui</h2>
+          <h2>Phyllis Wambui</h2><br/>
           <p>
             "Joining the Murang'a University Tech Club was one of the best
             decisions I've made in my university journey. The hands-on
@@ -32,7 +32,7 @@ function Testimonies() {
         {/* *********************************************************************************************************** */}
 
         <div className="joseph">
-          <h2>Phyllis Wambui</h2>
+          <h2>Phyllis Wambui</h2><br/>
           <p>
             "Joining the Murang'a University Tech Club was one of the best
             decisions I've made in my university journey. The hands-on

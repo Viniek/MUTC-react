@@ -1,9 +1,18 @@
 import "./Leaders.css";
-import { Link } from "react-router-dom";
-
-function SocialAccounts({linkedin,instagram,facebook,twitter}){
   
-return}
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
+import { Link } from "react-router-dom";
+function Social({ icon, description }) {
+  return (
+    <section className="socials">
+      <p>
+        {icon} {description}
+      </p>
+    </section>
+  );
+}
 
 
 
@@ -16,8 +25,9 @@ function Leaders() {
         </h1>
         <p>Dedicated Leaders Driving Innovation and Excellence </p>
       </div>
-      {/* **************************************************************************************88 */}
-      <div className="ourleaders">
+      
+      {/* John Ndia */}
+            <div className="ourleaders">
         <div className="victory">
           <img src="../src/assets/hero.jpg" alt="dr John ndia" />
           <h1>Dr. John Ndia</h1>
@@ -27,15 +37,19 @@ function Leaders() {
             in the field of computer science and technology,
           </p>
         </div>
-        {/* **************************************************************************************************8 */}
+        {/* Victory Njeri */}
         <div className="victory">
           <img src="../src/assets/hero.jpg" alt="Victory Njeri" />
           <h1>Victory Njeri</h1>
           <p>
-          Chairperson of the club. She has LinkedIn, Twitter, Facebook
-           and Instagram accounts (you may use dummy links). Please create a brief 
-           biography for her and use any suitable placeholder images found online.
+          Chairperson of the club.She is a dedicated and ambitious Computer Scientist.
           </p>
+          <div className="links">
+          <Social icon={<FaInstagramSquare />} description={<Link to="https://github.com/viniek" target="blank" ></Link>} />
+        <Social icon={<FaFacebookF />} description={<Link to="https://github.com/viniek" target="blank" ></Link>} />
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" ></Link>} />
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" ></Link>} />
+          </div>
         </div>
         {/* ****************************************************************************************************8 */}
         <div className="victory">
@@ -51,12 +65,10 @@ function Leaders() {
         <div className="victory">
           <img src="../src/assets/hero.jpg" alt="bridget" />
           <h1>Bridget Gitonga</h1>
-          <p>
-          secretary of the club. She has Twitter and LinkedIn accounts (you may use dummy links).
+          <p><small>Secretary of the club. She has Twitter and LinkedIn accounts (you may use dummy links).
            Please create a biography for her and use any suitable placeholder images found online.
            secretary of the club. She has Twitter and LinkedIn accounts (you may use dummy links). 
-           Please create a biography for her and use any suitable placeholder images found online.
-          </p>
+           Please create a biography for her and use any suitable placeholder images found online.</small></p>
         </div>
         {/* ******************************************************************************************************* */}
       </div>

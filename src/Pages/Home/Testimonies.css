@@ -37,7 +37,13 @@
   float: left;
 }
 .joseph{
-  border:4px groove grey;
-  
+  border:3px solid grey;
+  border-radius:30%;
+  padding:6rem;
+}
+.joseph p:hover{
+  color:purple;
+  scale: 1.1;
+  transition:all 0.6s ease-in-out;
 }
 
