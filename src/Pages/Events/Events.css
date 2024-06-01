@@ -53,10 +53,10 @@ transition: 0.18s ease;
 .ourevents2 img{
     border:1px solid red;
     border-radius: 50%;
-    padding:5px;
+    padding:1px;
 }
 .ourevents2-image-wrapper {
-    height: 35rem;
+    height: 1rem;
     position: relative;
     overflow: hidden;
   }
