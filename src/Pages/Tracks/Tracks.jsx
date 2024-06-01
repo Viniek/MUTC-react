@@ -3,8 +3,8 @@ function Tracks() {
   return <div>
 
     <section className="header">
-      <div className="top">
-      <h1>  <i>Explore a world of innovation with our tracks</i></h1><br/><br/>
+      <div className="introduction">
+      <h1>  <i>Explore a world of innovation with our tracks</i></h1>
       <p><i>where creativity meets technology</i></p>
       </div>
   

@@ -4,6 +4,10 @@
     min-height: 40vh;
     background-position: 0%;
     margin:10% 30%;
+    
+}
+.body{
+    background-color: black;
 }
 
 .ourevents1 h1 {
@@ -11,7 +15,7 @@
 }
 
 .ourevents2 {
-    border: 2px groove grey;
+    border: 2px groove black;
     border-radius: 40%;   
     min-width: 60px; 
     width: 60px; 
@@ -46,3 +50,12 @@ transition: 0.18s ease;
     position: relative; 
     padding: 10px; 
 }
+.ourevents2 img{
+    width:5px;
+    height:5px;
+}
+.ourevents2-image-wrapper {
+    height: 35rem;
+    position: relative;
+    overflow: hidden;
+  }

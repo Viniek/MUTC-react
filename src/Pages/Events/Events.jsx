@@ -3,7 +3,12 @@ import "./Events.css";
 function Events() {
   return (
     <>
+    <div className="body">
     <div className="events">
+      <div className="introduction">
+        <h1> <i>Explore a world of innovation with our tracks</i></h1>
+      <p><i>where creativity meets technology</i></p>
+      </div>
       <div className="ourevents1">
         <div className="ourevents2">
           <h1>cybersecurity</h1>
@@ -38,7 +43,9 @@ function Events() {
 
       </div>
     </div>
+    </div>
     </>
   )
 }
+
 export default Events;

@@ -1,6 +1,6 @@
 .top{
     margin-bottom: 1rem;
- 
+    
 margin-left: 30%;
 font-weight: bolder;
 
@@ -8,6 +8,7 @@ font-weight: bolder;
 .top p{
     margin-left: 10%;
     font-size: larger;
+    
 
 }
 
@@ -20,6 +21,7 @@ font-weight: bolder;
     justify-content: center;
     align-items: center;
     gap:2rem
+    
 }
 
 .tracks1{
@@ -37,6 +39,7 @@ font-weight: bolder;
     border:2px groove grey;
     border-radius: 20px;
     background-color: var(--primary_color);
+    width:40rem;
 }
 .cybersecurity h1{
     font-weight: bolder;
