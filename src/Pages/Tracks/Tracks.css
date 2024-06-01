@@ -1,7 +1,8 @@
-.header{
+.top{
     margin-bottom: 1rem;
   height: 10rem;
 }
+
 .tracks{
     background-color: var(--secondary_color);
     color: var(--color_white);
