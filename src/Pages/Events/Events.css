@@ -1,9 +1,9 @@
 .ourevents1 {
     display: flex;
-    gap: 20px; 
+    gap: 40px; 
     min-height: 40vh;
     background-position: 0%;
-    margin:10% 40%;
+    margin:10% 30%;
 }
 
 .ourevents1 h1 {
@@ -12,10 +12,9 @@
 
 .ourevents2 {
     border: 2px groove grey;
-    border-radius: 40%;
-    
-    width: 50px; /* Small width to show as icons */
-    height: 50px; /* Ensures the div remains a square icon */
+    border-radius: 40%;    
+    width: 50px; 
+    height: 80px; 
     overflow: hidden; /* Hide the overflowing content */
     position: relative;
     transition: all 0.3s ease;
