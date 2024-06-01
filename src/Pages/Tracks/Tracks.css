@@ -1,7 +1,7 @@
 .tracks{
     background-color: var(--secondary_color);
     color: var(--color_white);
-    height: 90vh;
+    height: 100vh;
     display: grid;
     flex-direction: column;
     justify-content: center;
