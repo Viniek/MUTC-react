@@ -1,20 +1,40 @@
-.ourevents1{
-    
-    display:flex;
-    gap:1px;
-    min-height:70vh;
+.ourevents1 {
+    display: flex;
+    gap: 10px; /* Adjust the gap as needed */
+    min-height: 90vh;
     background-position: 0%;
     margin-left: 20rem;
     margin-right: 20rem;
-
 }
-.ourevents1 h1{
+
+.ourevents1 h1 {
     font-weight: bolder;
 }
 
+.ourevents2 {
+    border: 2px groove grey;
+    border-radius: 40%;
+    min-width: 50px; /* Small width to show as icons */
+    width: 50px; /* Small width to show as icons */
+    height: 50px; /* Ensures the div remains a square icon */
+    overflow: hidden; /* Hide the overflowing content */
+    position: relative;
+    transition: all 0.3s ease;
+}
 
-.ourevents2{
-    border:2px groove grey;
-    border-radius: 20%;
-    min-width: 5vb;
+.ourevents2:hover {
+    width: 300px; /* Expand to show content */
+    min-width: 300px; /* Ensures the expanded width */
+    height: auto; /* Allows height to adjust based on content */
+}
+
+.ourevents2 h1, .ourevents2 p {
+    opacity: 0; /* Hide text content initially */
+    transition: opacity 0.3s ease;
+}
+
+.ourevents2:hover h1, .ourevents2:hover p {
+    opacity: 1; /* Show text content on hover */
+    position: relative; /* Ensures text remains within the expanded div */
+    padding: 10px; /* Adds some padding for readability */
 }
