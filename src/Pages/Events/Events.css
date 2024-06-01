@@ -1,10 +1,9 @@
 .ourevents1 {
     display: flex;
-    gap: 10px; 
-    min-height: 70vh;
+    gap: 20px; 
+    min-height: 40vh;
     background-position: 0%;
-    margin-left: 40rem;
-    margin-right: 40rem;
+    margin:10% 40%;
 }
 
 .ourevents1 h1 {
