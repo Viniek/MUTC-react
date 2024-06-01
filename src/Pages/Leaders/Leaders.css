@@ -75,7 +75,13 @@ color: var(--primary_color);
 .links{
   display:flex;
   flex-direction: row;
-  gap:3rem;
+  gap:0.5px;
   margin-top: 3rem;
+  padding:5px 30px;
+  align-items: center;
+
+}
+.links a{
+  color:var(--primary_color)
 }
 
