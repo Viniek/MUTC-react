@@ -5,7 +5,7 @@ function Tracks() {
     <section className="header">
       <div className="introduction">
       <h1>  <i>Explore a world of innovation with our tracks</i></h1>
-      <p><i>where creativity meets technology</i></p>
+      <p><i><b>where creativity meets technology</b></i></p>
       </div>
   
       <div className="tracks">
@@ -63,34 +63,53 @@ function Tracks() {
         </div>
         </div>
       </div>
-      
+      <section className="form">
+    <form className="theform"> 
 
-      
+  <div className="contacts" id="fullname">
+  <label htmlFor="fullname">Full Name</label>
+  <input type="text" placeholder="Full Name" required />
+  </div>
+
+  <div className="contacts" id="email">
+  <label htmlFor="email">Email Address</label>
+  <input type="email"  placeholder="Email adress" required/>
+  </div>
+
+  <div className="contacts" id="course">
+  <label htmlFor="course">Current Course</label>
+  <input type="text" placeholder="Current Course"required />
+  </div>
+
+  <div className="contacts" id="yearofstudy">
+  <label htmlFor="yearofstudy">Year Of Study</label>
+  <input type="text" placeholder="Year of Study" required />
+  </div>
+
+  <div className="contacts" id="tracks">
+  <label htmlFor="selecttracks">Select Your Desired Track</label>
+  
+   <select name="Cyber Security" id="courses" className="contacts">
+    <option value="Cyber Security">Cyber Security</option>
+    <option value="UI/UX design">UI/UX design</option>
+    <option value="Web development">Web development</option>
+    <option value="Mobile apps development">Mobile apps development</option>
+    <option value="Cloud engineering">Cloud engineering</option>
+    <option value="Power Platform">Power Platform</option>
+  
+  </select>
+  </div>
+
+  <div>
+  <button id="submit" className="contacts button" > Submit</button>
+  </div>
+    </form>
+            
 
 
     </section>
-  </div>;
-  <div className="form">
-  <form>
-   
-    <label htmlFor="fname">Firstname</label><br></br>
-    <input type="text"id="fname"placeholder="your full name..." required></input>
-
-    <label htmlFor="year">Year</label>
-    <input type="year"id="year" placeholder="your year of study" required></input>
-    <label htmlFor="course">course</label><br></br>
-    <input type="text"id="course"placeholder="your course..." required></input>
-   
-      <label htmlFor="track">Your Track</label><br></br>
-    <select name="Cyber Security" id="courses" className="contacts">
-      <option value="cybersecurity">cybersecurity</option>
-      <option value="UI/UX design">UI/UX design</option>
-      <option value="Web development">Web development</option>
-      <option value="Mobile apps development">Mobile apps development</option>
-      <option value="Cloud engineering">Cloud engineering</option>
-      <option value="Power Platform">Power Platform</option>
-    </select>
-  </form>
-</div>
+    </section>
+    </div>
+    
 }
 export default Tracks;

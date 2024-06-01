@@ -51,6 +51,7 @@ font-weight: bolder;
     line-height: 20px;
     letter-spacing: .5px;
     
+    
 }
 .cybersecurity h1{
     font-weight: bolder;
@@ -62,4 +63,9 @@ scale: 1.1;
 transition: all 1.5s;
 overflow: hidden;
 
+}
+.introduction{
+    color:var(--color_white);
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
 }
