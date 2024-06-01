@@ -51,27 +51,26 @@ function Leaders() {
         <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
           </div>
         </div>
-        {/* ****************************************************************************************************8 */}
+        {/* Allan Muhari */}
         <div className="victory">
           <img src="../src/assets/hero.jpg" alt="allan" />
           <h1>Allan Muhari</h1>
           <p>
-          Vice Chairperson of the club. He is adedicated and ambitiousprogrammer.
+          Vice Chairperson of the club. He is a dedicated and ambitious programmer.
           </p>
-          <div className="links">
-          <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
-        <Social icon={<FaXlinkedin />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
-         
+          <div className="links">         
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
           </div>
         </div>
-        {/* ************************************************************************************************* */}
+        {/* Bridget Gitonga */}
         <div className="victory">
           <img src="../src/assets/hero.jpg" alt="bridget" />
           <h1>Bridget Gitonga</h1>
-          <p><small>Secretary of the club. She has Twitter and LinkedIn accounts (you may use dummy links).
-           Please create a biography for her and use any suitable placeholder images found online.
-           secretary of the club. She has Twitter and LinkedIn accounts (you may use dummy links). 
-           Please create a biography for her and use any suitable placeholder images found online.</small></p>
+          <p><small>Secretary of the club. She is an ambitious
+       <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+          </div>
         </div>
         {/* ******************************************************************************************************* */}
       </div>
