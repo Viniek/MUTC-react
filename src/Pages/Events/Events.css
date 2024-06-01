@@ -3,11 +3,13 @@
     gap: 40px; 
     min-height: 40vh;
     background-position: 0%;
-    margin:10% 30%;
+    margin:6% 30%;
     
 }
 .body{
-    background-color: black;
+    background-color:var(--secondary_color);
+    color:#FFDA9D;
+    
 }
 
 .ourevents1 h1 {
@@ -16,7 +18,7 @@
 
 .ourevents2 {
     border: 2px groove black;
-    border-radius: 40%;   
+    border-radius: 20%;   
     min-width: 60px; 
     width: 60px; 
     height: 120px; 

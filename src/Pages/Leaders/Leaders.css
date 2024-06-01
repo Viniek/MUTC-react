@@ -1,11 +1,13 @@
 .Leaders {
   background-color: var(--primary_color);
   color: var(--color_white);
-  height: 200vh;
+  height: 227vh;
   display: block;
   align-items: center;
   justify-content: center;
   width: 100%;
+  padding-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .introduction {

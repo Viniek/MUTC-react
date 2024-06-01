@@ -4,6 +4,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { FaLinkedin } from "react-icons/fa";
 function Social({ icon, description }) {
   return (
     <section className="socials">
@@ -48,7 +49,7 @@ function Leaders() {
           <Social icon={<FaInstagramSquare />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
         <Social icon={<FaFacebookF />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
         <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
-        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaLinkedin />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
           </div>
         </div>
         {/* Allan Muhari */}
@@ -60,7 +61,7 @@ function Leaders() {
           </p>
           <div className="links">         
         <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
-        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaLinkedin />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
           </div>
         </div>
         {/* Bridget Gitonga */}
@@ -70,7 +71,7 @@ function Leaders() {
           <p>Secretary of the club.She is an ambitious and dedicated Programmer.</p>
            <div className="links">          
        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
-        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaLinkedin />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
           </div>
         </div>
         {/* Ruth Mutisya */}
@@ -100,7 +101,7 @@ function Leaders() {
           <Social icon={<FaInstagramSquare />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
         <Social icon={<FaFacebookF />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
         <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
-        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaLinkedin/>} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
           </div>
         </div>
 
@@ -115,7 +116,7 @@ function Leaders() {
           <Social icon={<FaInstagramSquare />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
         <Social icon={<FaFacebookF />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
         <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
-        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaLinkedin />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
           </div>
         </div>
         {/*Carolyne Githenduka */}
@@ -130,7 +131,7 @@ function Leaders() {
           <Social icon={<FaInstagramSquare />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
         <Social icon={<FaFacebookF />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
         <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
-        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaLinkedin />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
           </div>
         </div>
 
@@ -150,7 +151,7 @@ function Leaders() {
           <Social icon={<FaInstagramSquare />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
         <Social icon={<FaFacebookF />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
         <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
-        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaLinkedin />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
           </div>
         </div>
         
@@ -168,7 +169,7 @@ function Leaders() {
           <Social icon={<FaInstagramSquare />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
         <Social icon={<FaFacebookF />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
         <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
-        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaLinkedin />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
           </div>
         </div>
        
