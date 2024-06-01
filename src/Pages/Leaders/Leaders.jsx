@@ -157,10 +157,14 @@ function Leaders() {
           <img src="../src/assets/hero.jpg" alt="Carolyne Githenduka" />
           <h1>Paul Karanja</h1>
           <p>
-          cloud engineering lead. He has LinkedIn, Twitter, Facebook and Instagram accounts
-           (you may use dummy links). Please create a biography for him and use any suitable placeholder
-            images found online.
+          cloud engineering lead. He is a dedicated and ambitious Programmer.
           </p>
+          <div className="links">
+          <Social icon={<FaInstagramSquare />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaFacebookF />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+          </div>
         </div>
 
         {/* ********************************************************************************************8 */}
