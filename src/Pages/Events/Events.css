@@ -1,10 +1,10 @@
 .ourevents1 {
     display: flex;
-    gap: 10px; /* Adjust the gap as needed */
-    min-height: 90vh;
+    gap: 10px; 
+    min-height: 70vh;
     background-position: 0%;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 40rem;
+    margin-right: 40rem;
 }
 
 .ourevents1 h1 {
@@ -14,7 +14,7 @@
 .ourevents2 {
     border: 2px groove grey;
     border-radius: 40%;
-    min-width: 50px; /* Small width to show as icons */
+    
     width: 50px; /* Small width to show as icons */
     height: 50px; /* Ensures the div remains a square icon */
     overflow: hidden; /* Hide the overflowing content */
