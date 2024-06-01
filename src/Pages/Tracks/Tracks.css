@@ -38,12 +38,13 @@ font-weight: bolder;
 
 .cybersecurity{
     border:2px groove grey;
-    border-radius: 30%;
+    border-radius: 20%;
     background-color: var(--primary_color);
     width:40rem;
     border-top: 2px solid grey;
     padding: 1.5rem;
     font-size: medium;
+    
     
 }
 .cybersecurity h1{
