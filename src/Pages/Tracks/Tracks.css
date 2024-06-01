@@ -11,9 +11,11 @@
 .tracks1{
     display:flex;
     flex-direction: row;
+    gap:2rem;
 }
 .tracks2{
     display:flex;
     flex-direction: row;
+    gap:2rem;
 }
 
