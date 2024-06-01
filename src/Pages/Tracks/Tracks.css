@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    gap:4rem
 }
 .tracks1{
     display:flex;
@@ -17,5 +17,8 @@
     display:flex;
     flex-direction: row;
     gap:2rem;
+}
+.cybersecurity{
+    border:2px groove grey;
 }
 
