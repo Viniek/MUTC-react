@@ -67,7 +67,8 @@ function Leaders() {
         <div className="victory">
           <img src="../src/assets/hero.jpg" alt="bridget" />
           <h1>Bridget Gitonga</h1>
-          <p><small>Secretary of the club. She is an ambitious
+          <p>Secretary of the club.She is an abitious and dedicated Programmer.</p>
+           <div className="links">          
        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
         <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
           </div>

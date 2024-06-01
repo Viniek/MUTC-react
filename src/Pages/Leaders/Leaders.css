@@ -76,6 +76,6 @@ color: var(--primary_color);
   display:flex;
   flex-direction: row;
   gap:3rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
