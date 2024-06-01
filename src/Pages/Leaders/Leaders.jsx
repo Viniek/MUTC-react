@@ -138,6 +138,7 @@ function Leaders() {
 
         {/* Stanley Amunze */}
       </div>
+      
       <div className="ourleaders">
         <div className="victory">
           <img src="../src/assets/hero.jpg" alt="Stanley Amunze" />
@@ -152,11 +153,13 @@ function Leaders() {
         <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
           </div>
         </div>
+        
 
         {/* Paul Karanja */}
 
+       
         <div className="victory">
-          <img src="../src/assets/hero.jpg" alt="Carolyne Githenduka" />
+        <img src="../src/assets/hero.jpg" alt="Paul Karanja" />
           <h1>Paul Karanja</h1>
           <p>
           cloud engineering lead. He is a dedicated and ambitious Programmer.

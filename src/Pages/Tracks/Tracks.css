@@ -38,7 +38,7 @@ font-weight: bolder;
 
 .cybersecurity{
     border:2px groove grey;
-    border-radius: 20px;
+    border-radius: 30%;
     background-color: var(--primary_color);
     width:40rem;
     border-top: 2px solid grey;
