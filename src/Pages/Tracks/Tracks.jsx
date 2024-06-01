@@ -4,8 +4,8 @@ function Tracks() {
 
     <section className="header">
       <div className="top">
-      <h1>  <i>Explore a world of innovation with our tracks</i></h1>
-      <h2>where creativity meets technology</h2>
+      <h1>  <i>Explore a world of innovation with our tracks</i></h1><br/><br/>
+      <p><i>where creativity meets technology</i></p>
       </div>
   
       <div className="tracks">
