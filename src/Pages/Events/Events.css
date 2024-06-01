@@ -12,7 +12,8 @@
 
 .ourevents2 {
     border: 2px groove grey;
-    border-radius: 40%;    
+    border-radius: 40%;   
+    min-width: 60px; 
     width: 60px; 
     height: 120px; 
     overflow: hidden; 
@@ -22,17 +23,26 @@
 
 .ourevents2:hover {
     width: 400px;
-    min-width: 00px; /* Ensures the expanded width */
-    height: auto; /* Allows height to adjust based on content */
+    min-width: 400px; 
+    height: auto;
+    align-items: center;
 }
 
 .ourevents2 h1, .ourevents2 p {
-    opacity: 0; /* Hide text content initially */
+    opacity: 0; 
     transition: opacity 0.3s ease;
 }
 
-.ourevents2:hover h1, .ourevents2:hover p {
-    opacity: 1; /* Show text content on hover */
-    position: relative; /* Ensures text remains within the expanded div */
-    padding: 10px; /* Adds some padding for readability */
+.ourevents2:hover h1{
+opacity:1;
+margin-left:20%;
+padding:10px;
+margin-top: 10%;
+transition: 0.18s ease;
+}
+
+ .ourevents2:hover p {
+    opacity: 1; 
+    position: relative; 
+    padding: 10px; 
 }

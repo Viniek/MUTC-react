@@ -8,6 +8,7 @@ function Events() {
         <div className="ourevents2">
           <h1>cybersecurity</h1>
           <p>Every Monday from 4pm to 7pm at computer lab F04, led by Webster Ifedha.</p>
+          <img src="./assets/cybersecurity.WEBP"alt="cybersecurity"/>
         </div>
         
         <div className="ourevents2">
