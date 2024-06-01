@@ -1,10 +1,9 @@
 .ourevents1{
-    border:2px groove grey;
-    border-radius: 20px;
+    
     display:flex;
     gap:1px;
     min-height:70vh;
-    
+    background-position: 0%;
     margin-left: 20rem;
     margin-right: 20rem;
 
@@ -17,5 +16,5 @@
 .ourevents2{
     border:2px groove grey;
     border-radius: 20%;
-    
+    min-width: 5vb;
 }

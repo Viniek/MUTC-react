@@ -36,6 +36,7 @@ font-weight: bolder;
 .cybersecurity{
     border:2px groove grey;
     border-radius: 20px;
+    background-color: var(--primary_color);
 }
 .cybersecurity h1{
     font-weight: bolder;
