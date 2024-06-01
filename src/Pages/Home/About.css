@@ -3,9 +3,12 @@
   background-color: var(--secondary_color);
   color: var(--color_white);
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   padding-top: 3rem;
   gap: 15rem;
+  padding-bottom: 2rem;
 
 }
 .us{
