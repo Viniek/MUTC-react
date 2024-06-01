@@ -151,7 +151,7 @@ function Leaders() {
           </div>
         </div>
 
-        {/* ******************************************************************************************** */}
+        {/* Paul Karanja */}
 
         <div className="victory">
           <img src="../src/assets/hero.jpg" alt="Carolyne Githenduka" />
