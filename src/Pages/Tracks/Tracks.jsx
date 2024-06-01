@@ -40,6 +40,7 @@ function Tracks() {
         </div>
         <div className="tracks2">   
         <div className="cybersecurity">
+        <h1>cybersecurity</h1><br></br>
         <p>Students who choose the Cyber Security track will delve into the critical 
         aspects of protecting systems, networks, and data from cyber threats. Throughout this track, they 
         will learn about various security protocols, ethical hacking, encryption techniques, and threat
