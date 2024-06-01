@@ -2,6 +2,8 @@
     border:2px groove grey;
     border-radius: 20px;
     display:flex;
+    gap:1px;
+    he
 }
 .events1 h1{
     font-weight: bolder;
@@ -16,5 +18,5 @@ color: var(--primary_color);
 .events2{
     border:2px groove grey;
     border-radius: 20%;
-    min-height:7rem;
+    
 }
