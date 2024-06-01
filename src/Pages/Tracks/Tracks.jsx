@@ -17,9 +17,7 @@ function Tracks() {
         aspects of protecting systems, networks, and data from cyber threats. Throughout this track, they 
         will learn about various security protocols, ethical hacking, encryption techniques, and threat
          analysis. They will engage in hands-on projects and real-world scenarios to apply their knowledge
-          in identifying and mitigating security vulnerabilities. By the end of the track, students will be 
-          equipped with the skills to safeguard digital environments, conduct security audits, and implement
-           robust security measures to protect against cyber attacks</p>
+          in identifying and mitigating security vulnerabilities. </p>
         </div>
         <div className="cybersecurity">
         
@@ -27,7 +25,8 @@ function Tracks() {
         <p> Students who enroll in the UI/UX Design track will explore the principles of creating
            user-friendly and visually appealing interfaces. They will learn about user research, wireframing,
             prototyping, and usability testing. Through practical projects and interactive workshops, students 
-            will gain hands-on experience in designing intuitive user interfaces and enhancing user experiences. By the end of the track, students will be proficient in using industry-standard design tools and techniques, enabling them to create effective, user-centric designs for websites and mobile applications.</p>
+            will gain hands-on experience in designing intuitive user interfaces and enhancing user experiences. 
+            </p>
         </div>
         <div className="cybersecurity">
         <h1>Web development</h1><br></br>
