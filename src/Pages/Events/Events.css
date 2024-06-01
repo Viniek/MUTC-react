@@ -1,0 +1,20 @@
+.events1{
+    border:2px groove grey;
+    border-radius: 20px;
+    display:flex;
+}
+.events1 h1{
+    font-weight: bolder;
+}
+
+.events1:hover{
+    scale: .300;
+background-color: var(--light_color);
+color: var(--primary_color);
+
+}
+.events2{
+    border:2px groove grey;
+    border-radius: 20%;
+    min-height:7rem;
+}
