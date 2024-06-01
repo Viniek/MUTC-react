@@ -13,8 +13,8 @@
 .ourevents2 {
     border: 2px groove grey;
     border-radius: 40%;    
-    width: 50px; 
-    height: 80px; 
+    width: 60px; 
+    height: 120px; 
     overflow: hidden; /* Hide the overflowing content */
     position: relative;
     transition: all 0.3s ease;
