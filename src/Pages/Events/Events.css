@@ -15,14 +15,14 @@
     border-radius: 40%;    
     width: 60px; 
     height: 120px; 
-    overflow: hidden; /* Hide the overflowing content */
+    overflow: hidden; 
     position: relative;
     transition: all 0.3s ease;
 }
 
 .ourevents2:hover {
-    width: 300px; /* Expand to show content */
-    min-width: 300px; /* Ensures the expanded width */
+    width: 400px;
+    min-width: 00px; /* Ensures the expanded width */
     height: auto; /* Allows height to adjust based on content */
 }
 
