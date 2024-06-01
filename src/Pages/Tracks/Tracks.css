@@ -28,6 +28,7 @@ font-weight: bolder;
     display:flex;
     flex-direction: row;
     gap:2rem;
+    margin-top: 20px;
 }
 .tracks2{
     display:flex;
@@ -40,15 +41,16 @@ font-weight: bolder;
     border-radius: 20px;
     background-color: var(--primary_color);
     width:40rem;
+    border-top: 2px solid grey;
+    padding: 1.5rem;
+    font-size: medium;
 }
 .cybersecurity h1{
     font-weight: bolder;
-    margin-left:40%;
+    margin-left:30%;
 }
 
-.cybersecurity:hover{
-    scale: .300;
-background-color: var(--light_color);
-color: var(--primary_color);
-
+.cybersecurity p:hover{
+scale: 1.1;
+transition: all.6s;
 }

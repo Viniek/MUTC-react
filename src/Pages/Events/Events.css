@@ -51,8 +51,9 @@ transition: 0.18s ease;
     padding: 10px; 
 }
 .ourevents2 img{
-    width:5px;
-    height:5px;
+    border:1px solid red;
+    border-radius: 50%;
+    padding:5px;
 }
 .ourevents2-image-wrapper {
     height: 35rem;
