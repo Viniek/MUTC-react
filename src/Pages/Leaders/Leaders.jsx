@@ -124,7 +124,8 @@ function Leaders() {
           <img src="../src/assets/hero.jpg" alt="Carolyne Githenduka" />
           <h1>Carolyne Githenduka</h1>
           <p>
-          web development lead. She is a dedicated and Ambitious Programmer.
+          web development lead. She is adedicate and ambitious Programmer.
+          </p>
           <div className="links">
           <Social icon={<FaInstagramSquare />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
         <Social icon={<FaFacebookF />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
@@ -140,10 +141,14 @@ function Leaders() {
           <img src="../src/assets/hero.jpg" alt="Stanley Amunze" />
           <h1>Stanley Amunze</h1>
           <p>
-          Mobile apps development lead. He has LinkedIn, Twitter, Facebook and Instagram accounts
-           (you may use dummy links). Please create a biography for him and use any suitable placeholder
-            images found online.
+          Mobile apps development lead. He is a dedicated and ambitious Programmer.
           </p>
+          <div className="links">
+          <Social icon={<FaInstagramSquare />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaFacebookF />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+          </div>
         </div>
 
         {/* ******************************************************************************************** */}
