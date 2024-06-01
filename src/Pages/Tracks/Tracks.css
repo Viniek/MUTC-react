@@ -14,7 +14,7 @@ font-weight: bolder;
 .tracks{
     background-color: var(--secondary_color);
     color: var(--color_white);
-    height: 100vh;
+    height: 70%;
     display: grid;
     flex-direction: column;
     justify-content: center;

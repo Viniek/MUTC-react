@@ -25,7 +25,7 @@ function Topheader() {
             icon={<FaUniversity />}
             content={"Murang'a University"}
           />
-          <Social_accounts icon={<FaSquarePhone />} content={"+254768163608"} />
+          <Social_accounts icon={<FaSquarePhone />} content={"+254743209259"} />
         </div>
       </section>
     </>
