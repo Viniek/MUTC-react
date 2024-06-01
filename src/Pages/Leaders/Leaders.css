@@ -61,7 +61,7 @@
   border:2px solid grey;
   border-radius: 30%;
 transition: all.5000s ease-in-out;
-
+padding:8px;
 }
 .victory h1{
  
