@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Sundanese:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: url("../../assets/hero.jpg");
+  opacity: 0.9;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+}
+.hero h1 {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  color: white;
+  font-weight: 900;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+.hero p {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: "Noto Sans Sundanese", sans-serif;
+  color: #fff;
+  font-weight: 600;
+  font-size: 2rem;
+  padding-left: 6rem;
+}
+
+@media screen (max-width: 34.375em) {
+  .hero {
+    height: 40vh;
+    flex-wrap: wrap;
+  }
+}
+
+.hero a {
+  color: var(--primary_color);
+  font-weight: 900;
+
+  background-color: var(--light_color);
+  border-radius: 10%;
+  width: 15rem;
+  height: 3rem;
+  padding-left: 3.5rem;
+  margin-top: 12rem;
+  text-decoration: none;
+  opacity: 0.9;
+  font-size: 2rem;
+}

@@ -1,0 +1,43 @@
+.textimonies {
+  background-color: var(--light_color);
+}
+.testimonies h1 {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary_color);
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.testimonies h1 {
+  background-color: var(--light_color);
+}
+
+.members_say {
+}
+.members {
+  width: 100%;
+  float: left;
+  font-style: italic;
+  display: flex;
+  gap: 5rem;
+  background-color: var(--secondary_color);
+  color: white;
+  padding-top: 2rem;
+ 
+}
+
+.members h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.joseph h2 {
+  float: left;
+}
+.joseph{
+  border:4px groove grey;
+  
+}
+

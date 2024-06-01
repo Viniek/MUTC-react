@@ -1,0 +1,19 @@
+.about {
+  height: 70vh;
+  background-color: var(--secondary_color);
+  color: var(--color_white);
+  display: flex;
+  width: 100%;
+  padding-top: 15rem;
+  gap: 15rem;
+}
+
+.socials {
+  width: 60%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.socials p {
+  width: 40%;
+}
