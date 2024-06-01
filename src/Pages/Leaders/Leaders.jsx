@@ -67,60 +67,73 @@ function Leaders() {
         <div className="victory">
           <img src="../src/assets/hero.jpg" alt="bridget" />
           <h1>Bridget Gitonga</h1>
-          <p>Secretary of the club.She is an abitious and dedicated Programmer.</p>
+          <p>Secretary of the club.She is an ambitious and dedicated Programmer.</p>
            <div className="links">          
        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
         <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
           </div>
         </div>
-        {/* ******************************************************************************************************* */}
+        {/* Ruth Mutisya */}
       </div>
 
       <div className="ourleaders">
         <div className="victory">
-          <img src="" alt="Ruth Mutisya" />
+        <img src="../src/assets/hero.jpg" alt="Webster Ifedha" />
           <h1>Ruth Mutisya</h1>
           <p>
-          treasurer of the club. She has Linkedin and Instagram accounts (you may use dummy links). 
-          Please create a biography for her and use any suitable placeholder images found online.
+          Treasurer of the club. She is a dedicated and ambitious programmer.
           </p>
+          <div className="links">          
+       <Social icon={<FaInstagramSquare/>} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+          </div>
         </div>
-        {/* ********************************************************************************************* */}
+        {/* Webster Ifedha */}
 
         <div className="victory">
           <img src="../src/assets/hero.jpg" alt="Webster Ifedha" />
           <h1>Webster Ifedha</h1>
           <p>
-          cyber security lead. He has LinkedIn, Twitter, Facebook and Instagram accounts (you may use dummy links).
-           Please create a biography for him and use any suitable placeholder images found online.
+          Cyber security lead. He is a dedicated and ambitious programmer.
           </p>
+          <div className="links">
+          <Social icon={<FaInstagramSquare />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaFacebookF />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+          </div>
         </div>
 
-        {/* ********************************************************************************************8 */}
+        {/* Manase Gunga */}
 
         <div className="victory">
           <img src="../src/assets/hero.jpg" alt="Manase Gunga" />
           <h1>Manase Gunga</h1>
           <p>
-          UI/UX lead. He has LinkedIn, Twitter, Facebook and Instagram accounts (you may use dummy links).
-          Please create a biography for him and use any suitable placeholder images found online.
-          </p>
+          UI/UX lead. He is an ambitious and dedicated Programmer.</p>
+          <div className="links">
+          <Social icon={<FaInstagramSquare />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaFacebookF />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+          </div>
         </div>
-
-        {/* ******************************************************************************************** */}
-
-        {/* ********************************************************************************************* */}
+        {/*Carolyne Githenduka */}
 
         <div className="victory">
           <img src="../src/assets/hero.jpg" alt="Carolyne Githenduka" />
           <h1>Carolyne Githenduka</h1>
           <p>
-          web development lead. She has LinkedIn, Twitter, Facebook and Instagram accounts (you may use dummy links). 
-          Please create a biography for her and use any suitable placeholder images found online.
-          </p>
+          web development lead. She is a dedicated and Ambitious Programmer.
+          <div className="links">
+          <Social icon={<FaInstagramSquare />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaFacebookF />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+          </div>
         </div>
 
-        {/* ********************************************************************************************8 */}
+        {/* Stanley Amunze */}
       </div>
       <div className="ourleaders">
         <div className="victory">
