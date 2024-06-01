@@ -45,10 +45,10 @@ function Leaders() {
           Chairperson of the club.She is a dedicated and ambitious Computer Scientist.
           </p>
           <div className="links">
-          <Social icon={<FaInstagramSquare />} description={<Link to="https://github.com/viniek" target="blank" ></Link>} />
-        <Social icon={<FaFacebookF />} description={<Link to="https://github.com/viniek" target="blank" ></Link>} />
-        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" ></Link>} />
-        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" ></Link>} />
+          <Social icon={<FaInstagramSquare />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaFacebookF />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
           </div>
         </div>
         {/* ****************************************************************************************************8 */}
@@ -56,10 +56,13 @@ function Leaders() {
           <img src="../src/assets/hero.jpg" alt="allan" />
           <h1>Allan Muhari</h1>
           <p>
-          Vice Chairperson of the club. He has Twitter and LinkedIn accounts 
-          (you may use dummy links). Please create a brief biography for him and
-           use any suitable placeholder images found online
+          Vice Chairperson of the club. He is adedicated and ambitiousprogrammer.
           </p>
+          <div className="links">
+          <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+        <Social icon={<FaXlinkedin />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
+         
+          </div>
         </div>
         {/* ************************************************************************************************* */}
         <div className="victory">
