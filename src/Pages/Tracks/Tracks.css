@@ -18,8 +18,12 @@
     flex-direction: row;
     gap:2rem;
 }
+
 .cybersecurity{
     border:2px groove grey;
     border-radius: 20px;
+}
+.cybersecurity h1{
+    font-weight: bolder;
 }
 
