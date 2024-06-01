@@ -14,8 +14,14 @@ function Social({ icon, description }) {
 }
 function About() {
   return (
-    <div className="about">
+    
+    <section className="us">
+
+{/* abbot */}
+    <header className="about">
+
       <div className="socials">
+
         <div className="contactinfo">
       <h1>School Contact Info</h1>
 <h2>Office of the Dean </h2>
@@ -27,7 +33,7 @@ MUTC@mut.ac.ke
 
 
 <div className="links">
-        <p>Our social platforms</p>
+        
         <Social icon={<FaInstagramSquare />} description={<Link to="https://github.com/viniek" target="blank" >Instagram</Link>} />
         <Social icon={<FaFacebookF />} description={<Link to="https://github.com/viniek" target="blank" >Facebook</Link>} />
         <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >Twitter</Link>} />
@@ -49,7 +55,10 @@ MUTC@mut.ac.ke
 <p>Murang’a University of Technology is committed to knowledge creation and advancement through
    innovative strategies and technologies for prosperity.</p>
       </div>
-    </div>
+    </header>
+
+
+    </section>
   );
 }
 
