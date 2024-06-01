@@ -1,6 +1,6 @@
 .top{
     margin-bottom: 1rem;
-  height: 10rem;
+ 
 margin-left: 30%;
 font-weight: bolder;
 
@@ -42,7 +42,8 @@ font-weight: bolder;
 }
 
 .cybersecurity:hover{
-    scale: 1.1;
+    scale: .300;
 background-color: var(--light_color);
 color: var(--primary_color);
+
 }
