@@ -17,3 +17,10 @@
 .socials p {
   width: 40%;
 }
+.aboutus{
+  display:grid;
+}
+.contactinfo{
+  border:2px solid grey;
+  border-radius: 10%;
+}

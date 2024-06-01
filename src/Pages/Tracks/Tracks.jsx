@@ -63,22 +63,34 @@ function Tracks() {
         </div>
         </div>
       </div>
-      <div className="form">
-        <form>
-          {/* fname */}
-          <label htmlFor="fname">Firstname</label><br></br>
-          <input type="text"id="fname"placeholder="Enter your full name..." required></input>
-          {/* lname */}
-            {/* fname */}
-            <label htmlFor="email">emaik</label><br></br>
-          <input type="email"id="email"placeholder="Enter your email address..." required></input>
-        </form>
-      </div>
+      
 
       
 
 
     </section>
   </div>;
+  <div className="form">
+  <form>
+   
+    <label htmlFor="fname">Firstname</label><br></br>
+    <input type="text"id="fname"placeholder="your full name..." required></input>
+
+    <label htmlFor="year">Year</label>
+    <input type="year"id="year" placeholder="your year of study" required></input>
+    <label htmlFor="course">course</label><br></br>
+    <input type="text"id="course"placeholder="your course..." required></input>
+   
+      <label htmlFor="track">Your Track</label><br></br>
+    <select name="Cyber Security" id="courses" className="contacts">
+      <option value="cybersecurity">cybersecurity</option>
+      <option value="UI/UX design">UI/UX design</option>
+      <option value="Web development">Web development</option>
+      <option value="Mobile apps development">Mobile apps development</option>
+      <option value="Cloud engineering">Cloud engineering</option>
+      <option value="Power Platform">Power Platform</option>
+    </select>
+  </form>
+</div>
 }
 export default Tracks;

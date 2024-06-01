@@ -30,6 +30,8 @@
     min-width: 400px; 
     height: auto;
     align-items: center;
+    transition: all 3s ease-in-out;
+    overflow: hidden;
 }
 
 .ourevents2 h1, .ourevents2 p {

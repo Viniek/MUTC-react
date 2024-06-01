@@ -3,13 +3,14 @@
   justify-content: space-between;
   display: flex;
   align-items: center;
-  background-color: var(--light_color#DFD0B8);
+  background-color: var(--secondary_color);
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: var(--light_color);
   padding-bottom: 2rem;
   
 }
+.Bottomheader{}
 
 @media screen and (max-width: 44.375em) {
   .topHeader {
@@ -87,6 +88,7 @@
     display: none;
     max-width: 540px;
     font-size: smaller;
+
 
   }
 }

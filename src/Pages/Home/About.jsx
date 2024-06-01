@@ -16,21 +16,38 @@ function About() {
   return (
     <div className="about">
       <div className="socials">
+        <div className="contactinfo">
+      <h1>School Contact Info</h1>
+<h2>Office of the Dean </h2>
+P.O.Box 75-10200<br/>
+Murang’a, Kenya<br/><br/>
+
++254743209259<br/>
+MUTC@mut.ac.ke
+
+
+<div className="links">
         <p>Our social platforms</p>
         <Social icon={<FaInstagramSquare />} description={<Link to="https://github.com/viniek" target="blank" >Instagram</Link>} />
         <Social icon={<FaFacebookF />} description={<Link to="https://github.com/viniek" target="blank" >Facebook</Link>} />
         <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >Twitter</Link>} />
       </div>
+</div>
+</div>
+
+      <div className="aboutus">
+        
+      </div>
+      <div className="vision">
+      <h1>Philosophy</h1>
+<p>Murang’a University of Technology is committed to knowledge creation and advancement through
+   innovative strategies and technologies for prosperity.</p>
+      </div>
 
       <div className="vision">
-        <h1>About us</h1>
-        <h2>Our vision</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
-          harum molestias rerum, numquam, consectetur in, reiciendis dolorem
-          inventore itaque temporibus sed ipsa! Molestias est obcaecati officia
-          deserunt odit non enim.
-        </p>
+      <h1>vision</h1>
+<p>Murang’a University of Technology is committed to knowledge creation and advancement through
+   innovative strategies and technologies for prosperity.</p>
       </div>
     </div>
   );

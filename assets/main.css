@@ -15,12 +15,11 @@ html {
 }
 
 :root {
-  --primary_color:#030637;
-  --secondary_color:#3C0753;
-  --color_blue: #76ABAE;
+  --primary_color: #153448;
+  --secondary_color: #3c5b6f;
+  --color_blue: #948979;
   --light_color: #dfd0b8;
-  --color_white:#FFDA9D;
-  
+  --color_white: #ffffff;
 }
 
 body {
