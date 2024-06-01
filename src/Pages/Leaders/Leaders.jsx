@@ -134,6 +134,8 @@ function Leaders() {
           </div>
         </div>
 
+
+
         {/* Stanley Amunze */}
       </div>
       <div className="ourleaders">
@@ -166,12 +168,11 @@ function Leaders() {
         <Social icon={<FaXTwitter />} description={<Link to="https://github.com/viniek" target="blank" >--</Link>} />
           </div>
         </div>
-
-        
-      </div>
-
-      {/* The End..... */}
+       
+         {/* The End..... */}
+      </div>     
     </section>
+    
   );
 }
 export default Leaders;
