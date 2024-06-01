@@ -63,7 +63,7 @@ transition: all.100;
 
 }
 .victory h1{
-  
+  clip-path: polygon(28% 6%, 80% 2%, 93% 5%, 43% 35%, 26% 54%, 10% 73%, 0% 80%, 8% 25%);
 }
 
 .victory:hover{
