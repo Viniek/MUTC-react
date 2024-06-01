@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:4rem
+    gap:2rem
 }
 .tracks1{
     display:flex;
