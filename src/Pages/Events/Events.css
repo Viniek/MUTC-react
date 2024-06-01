@@ -1,21 +1,20 @@
-.events1{
+.ourevents1{
     border:2px groove grey;
     border-radius: 20px;
     display:flex;
     gap:1px;
-    he
+    min-height:70vh;
+    
+    margin-left: 20rem;
+    margin-right: 20rem;
+
 }
-.events1 h1{
+.ourevents1 h1{
     font-weight: bolder;
 }
 
-.events1:hover{
-    scale: .300;
-background-color: var(--light_color);
-color: var(--primary_color);
 
-}
-.events2{
+.ourevents2{
     border:2px groove grey;
     border-radius: 20%;
     
