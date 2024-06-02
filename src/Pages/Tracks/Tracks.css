@@ -69,3 +69,9 @@ overflow: hidden;
     border-bottom: 1px solid grey;
     border-top: 1px solid grey;
 }
+.theform{
+    border:2px solid grey;
+    background-color: var(--primary_color);
+    align-items: center;
+    color:var(--color_white);
+}
