@@ -67,27 +67,27 @@ function Tracks() {
     <form className="theform"> 
 
   <div className="contacts" id="fullname">
-  <label htmlFor="fullname">Full Name</label>
+  <label htmlFor="fullname">Full Name</label><br/><br/>
   <input type="text" placeholder="Full Name" required />
   </div>
 
   <div className="contacts" id="email">
-  <label htmlFor="email">Email Address</label>
+  <label htmlFor="email">Email Address</label><br/><br/>
   <input type="email"  placeholder="Email adress" required/>
   </div>
 
   <div className="contacts" id="course">
-  <label htmlFor="course">Current Course</label>
+  <label htmlFor="course">Current Course</label><br/><br/>
   <input type="text" placeholder="Current Course"required />
   </div>
 
   <div className="contacts" id="yearofstudy">
-  <label htmlFor="yearofstudy">Year Of Study</label>
+  <label htmlFor="yearofstudy">Year Of Study</label><br/><br/>
   <input type="text" placeholder="Year of Study" required />
   </div>
 
   <div className="contacts" id="tracks">
-  <label htmlFor="selecttracks">Select Your Desired Track</label>
+  <label htmlFor="selecttracks">Select Your Desired Track</label><br/><br/>
   
    <select name="Cyber Security" id="courses" className="contacts">
     <option value="Cyber Security">Cyber Security</option>
@@ -104,7 +104,7 @@ function Tracks() {
   <div>
   <button id="submit" className="contacts button" > Submit</button>
   </div>
-  
+
     </form>
             
 
