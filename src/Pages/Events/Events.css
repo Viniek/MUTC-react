@@ -4,12 +4,11 @@
     min-height: 40vh;
     background-position: 0%;
     margin:6% 30%;
-    
 }
-.body{
-    background-color:#030637;
-    color:#FFDA9D;
-    
+
+.body {
+    background-color: #030637;
+    color: #FFDA9D;
 }
 
 .ourevents1 h1 {
@@ -41,28 +40,30 @@
     transition: opacity 0.3s ease;
 }
 
-.ourevents2:hover h1{
-opacity:1;
-margin-left:20%;
-padding:10px;
-margin-top: 10%;
-transition: 0.18s ease;
+.ourevents2:hover h1 {
+    opacity: 1;
+    margin-left: 20%;
+    padding: 10px;
+    margin-top: 10%;
+    transition: 0.18s ease;
 }
 
- .ourevents2:hover p {
+.ourevents2:hover p {
     opacity: 1; 
     position: relative; 
     padding: 10px; 
 }
 
 .ourevents2-image-wrapper {
-    height: 1rem;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .ourevents2 img {
     height: 5rem;
     width: 5rem;
-    border-radius: 100%;
-  }
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.ourevents2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
