@@ -71,10 +71,12 @@ overflow: hidden;
 }
 .theform{
     border:2px solid grey;
+    border-radius: 20%;
     background-color: var(--primary_color);
     justify-content: center;
     color:var(--color_white);
     margin-right: 30%;
     margin-left:30%;
-    padding-left: 10%;
+    padding-left: 30%;
+
 }
