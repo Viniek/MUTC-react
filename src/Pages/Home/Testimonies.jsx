@@ -3,7 +3,7 @@ function Testimonies() {
   return (
     <div className="testimonies">
       <div className="members_say">
-        <h1>What Our Members Say</h1>
+        <h1>Testimonials</h1>
       </div>
       <section className="members">
         <div className="vee">
