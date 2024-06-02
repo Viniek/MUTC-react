@@ -72,6 +72,9 @@ overflow: hidden;
 .theform{
     border:2px solid grey;
     background-color: var(--primary_color);
-    align-items: center;
+    justify-content: center;
     color:var(--color_white);
+    margin-right: 30%;
+    margin-left:30%;
+    padding-left: 10%;
 }
