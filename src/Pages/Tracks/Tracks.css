@@ -69,14 +69,29 @@ overflow: hidden;
     border-bottom: 1px solid grey;
     border-top: 1px solid grey;
 }
-.theform{
-    border:2px solid grey;
-    border-radius: 20%;
-    background-color: var(--primary_color);
-    justify-content: center;
-    color:var(--color_white);
-    margin-right: 30%;
-    margin-left:30%;
-    padding-left: 30%;
+.form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 
+
+}
+
+.theform{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color:var(--color_white);
+background-color: var(--primary_color);
+border-radius: 20%;
+border: 2px solid grey;
+width: 40%;
+padding-bottom: 2rem;
+margin-bottom: 2rem;
+gap: 2rem;
+}
+.submit{
+    background-color: red;
 }
